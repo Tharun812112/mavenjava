@@ -88,6 +88,7 @@ pre requisites:
 1)docker desktop-running
 2)Docker image
 
+name= mynginx
 minikube start --driver=docker
 kubectl create deployment <name> --image=<image>
 kubectl get pods
